@@ -3,6 +3,7 @@
     <div class="copyright">
       <n-text class="description" v-html="packageJson.description" />
       <n-text
+        v-if="false"
         class="author"
         :depth="3"
         v-html="packageJson.author"
